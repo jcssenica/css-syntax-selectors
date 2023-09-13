@@ -1,17 +1,31 @@
 body {
   color: pink;
+  font-style: italic;
 }
 
 h1 {
   color: rgb(0, 137, 144);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  font-size: 50px;
+  text-decoration: underline dotted rgb(185, 1, 133);
+  opacity: 0;
+}
+
+h1:hover{
+  opacity: 1;
+  cursor: pointer;
 }
 
 .quote {
   color: rgb(67, 67, 67);
+  line-height: 20%;
+  box-shadow: 20px 20px #888888;
 }
 
 .quote.narrator {
   color: rgb(48, 100, 18);
+  display: none;
 }
 
 #intro p {
